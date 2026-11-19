@@ -1,6 +1,6 @@
 cask "minimalcapture" do
-  version "1.0.1"
-  sha256 "3bc903b18069de8e77244a2696d2fd164c9a9793ac28c1b72dd38191c487b2ee"
+  version "1.0.2"
+  sha256 "39c15109cc2ecd416518bc073f442d3f3b322b2f7b0d88a581bc435420300235"
 
   url "https://github.com/glennsheff/MinimalCapture/releases/download/v#{version}/MinimalCapture.zip"
   name "MinimalCapture"
