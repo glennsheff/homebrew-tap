@@ -7,8 +7,19 @@ Casks for my apps.
 A tiny macOS menu bar screenshot tool. [Source and details](https://github.com/glennsheff/MinimalCapture).
 
 ```bash
-brew install --cask glennsheff/tap/minimalcapture
+brew tap glennsheff/tap
 ```
+
+```bash
+brew trust glennsheff/tap
+```
+
+```bash
+brew install --cask minimalcapture
+```
+
+The `brew trust` step is needed on Homebrew 7 and later, which will not load casks from a
+third-party tap until you say you trust it. Skip it on older versions.
 
 Update later with:
 
