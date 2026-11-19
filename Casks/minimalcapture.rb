@@ -7,7 +7,7 @@ cask "minimalcapture" do
   desc "Tiny menu bar screenshot tool"
   homepage "https://github.com/glennsheff/MinimalCapture"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MinimalCapture.app"
 
